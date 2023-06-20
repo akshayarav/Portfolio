@@ -1,0 +1,19 @@
+#projects_wrapper {
+    display: flex;
+    align-items: left;
+    height: 850px;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+#projects {
+    height: 58px;
+    border-bottom: solid;
+}
+
+#projects_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

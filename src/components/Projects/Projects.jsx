@@ -1,11 +1,11 @@
 import "./Projects.css"
+import Header from "../Header/Header"
 
 function Projects(props) {
     return (
         <div id = "projects_wrapper"> 
-            <div id = "projects"> </div>
-            <div >
-                <h1> Projects </h1>
+            <div id = "projects">
+                <Header name = "Projects" />
             </div>
             <div id = "projects_flex">
                 <div className="card">

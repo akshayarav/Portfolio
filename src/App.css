@@ -1,4 +1,27 @@
-html, body {
-    height: 100%
+#title {
+    font-size: 50px;
 }
+
+:root {
+    --color: black;
+    --color-nav: beige;
+    
+}
+.dark {
+    background-color: #333;
+    color: #fff;
+    --color: white;
+    --color-nav: #697268;
+}
+
+.light {
+    background-color: #fff;
+    color: #333;
+}
+
+@media only screen and (max-width: 600px) {
+    #title {
+        font-size: 20px;
+    }
+} 
 

@@ -1,7 +1,7 @@
 #projects_wrapper {
     display: flex;
     align-items: left;
-    height: 850px;
+    height: 1000px;
     width: 100%;
     flex-direction: column;
 }
@@ -9,11 +9,19 @@
 
 #projects {
     height: 58px;
-    border-bottom: solid;
+    border-top: solid;
+    display: flex;
+    justify-content: center;
 }
 
+
 #projects_flex {
+    padding-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.card{
+    z-index: 1000;
 }

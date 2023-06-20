@@ -5,7 +5,8 @@ export default function Home(props) {
     <div id = "home_wrapper">
         <div id = "home">
             <h2> Hey, I'm</h2>
-            <h1> Akshay Aravind</h1>
+            <h1 id = "title" className = "underline"> Akshay Aravind</h1>
+            <h5>An Experienced Software Engineer</h5>
         </div>
     </div>
     )

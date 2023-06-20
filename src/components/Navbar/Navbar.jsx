@@ -1,7 +1,8 @@
 import React from 'react';
-import './navbar.css'
-import {AiFillMail, AiOutlineGithub, AiOutlineLinkedin} from 'react-icons/ai'
-import Pdf from './Resume-AkshayAravind.pdf'
+import './navbar.css';
+import {AiFillMail, AiOutlineGithub, AiOutlineLinkedin} from 'react-icons/ai';
+
+import Pdf from './Resume-AkshayAravind.pdf';
 
 const handleScroll = (name) => {
   console.log(name)
@@ -14,7 +15,7 @@ function scrollTop() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-const NavBar= () =>{
+const NavBar= (props) =>{
   return (
   <div className="nav">
       <div className = "left">       
@@ -41,6 +42,11 @@ const NavBar= () =>{
         <a href="mailto::akshayaravindpr@gmail.com" style={{color: "black"}}> 
           <AiFillMail className = "logo"/>
         </a>
+        <button onClick={props.dark}>
+          <div className = "logo">
+            {props.img}
+          </div>
+        </button>
       </div>
   </div>
   )

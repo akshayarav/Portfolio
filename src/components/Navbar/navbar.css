@@ -6,7 +6,8 @@
     position: sticky;
     top : 0;
     flex-wrap: nowrap;
-    background: beige;
+    background: var(--color-nav);
+    z-index: 0;
 }
 
 
@@ -18,17 +19,20 @@
 
 .logo {
     font-size: 56px;
+    color: var(--color);
 }
 .right {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
+
 #resume {
     font-family:'Courier New', Courier, monospace;
     text-decoration: none;
     font-size: 25px;
-    color: black;
-    border:3px solid black; 
+    color: var(--color);
+    border:3px solid var(--color); 
     font-weight: 300;
     padding-left: 0.5em;
     padding-right: 0.5em;
@@ -42,7 +46,7 @@
   letter-spacing: 2px;
   text-decoration: none;
   text-transform: uppercase;
-  color: #000;
+  color: var(--color);
   cursor: pointer;
   border: 3px solid;
   padding: 0.25em 0.5em;
@@ -63,15 +67,20 @@
 @media only screen and (max-width: 600px) {
     .left {
         font-size:small;
+        align-self: flex-start;
     }
     
     .logo {
         font-size: 30px;
     }
     .button-shaded {
-        font-size: 8px;
+        font-size: 6px;
+        letter-spacing: 1px;
+        align-self: flex-start;
     }
     #resume {
-        font-size: 12px;
+        font-size: 9px;
     }
 }
+
+

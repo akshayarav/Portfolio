@@ -6,15 +6,14 @@
     width: 100%;
     flex-direction: column;
     border-top: solid;
+    scroll-snap-type: mandatory;
 }
 
 .scrollNext {
-    display: flex;
-    align-items: center;
     position:absolute;
     bottom: 0;
-    padding-bottom: 20px;
-    font-size: larger;
+    font-size:larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 body {

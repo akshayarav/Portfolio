@@ -27,10 +27,14 @@ function App() {
   return (
     <div className = {`App ${theme}`}>
       <Navbar dark = {toggleTheme} img = {themeImg}/>
-      <div className = "snap-y scroll-snap-stop: always">
-        <Home />
-        <About />
-        <Projects />
+      <div>
+      <section>
+      <Home />
+      </section>
+      <section>
+      <About />
+      <Projects />
+      </section>
       </div>
     </div>
   );

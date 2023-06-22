@@ -71,7 +71,7 @@
     }
     
     .logo {
-        font-size: 30px;
+        font-size: 25px;
     }
     .button-shaded {
         font-size: 6px;
@@ -79,7 +79,7 @@
         align-self: flex-start;
     }
     #resume {
-        font-size: 9px;
+        font-size: 7px;
     }
 }
 

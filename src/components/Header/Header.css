@@ -22,4 +22,11 @@ grid-area: 1/1/-1/-1;
     -webkit-text-fill-color: transparent;
     transform: translateX(-0.02em);
 }
+
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+} 
   

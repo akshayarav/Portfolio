@@ -1,11 +1,9 @@
 import React from 'react';
 import './navbar.css';
 import {AiFillMail, AiOutlineGithub, AiOutlineLinkedin} from 'react-icons/ai';
-
 import Pdf from './Resume-AkshayAravind.pdf';
 
 const handleScroll = (name) => {
-  console.log(name)
   var element = document.getElementById(name)
   element.scrollIntoView()
 }

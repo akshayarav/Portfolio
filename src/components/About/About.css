@@ -1,7 +1,6 @@
 #about_wrapper {
     display: flex;
     align-items: left;
-    height: 856px;
     width: 100%;
     flex-direction: column;
 }
@@ -13,5 +12,6 @@
     justify-content: center;
     font-size: 5px;
 }
+
 
 

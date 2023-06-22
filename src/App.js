@@ -20,6 +20,7 @@ function App() {
     }
   }
   useEffect(() => {
+    document.title = 'Akshay Aravind';
     document.body.className = theme;
   }, [theme]);
 

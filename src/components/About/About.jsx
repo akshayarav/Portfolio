@@ -11,7 +11,7 @@ function About(props) {
             <div id="aboutMe">
                 <h3> Biography </h3>
                 <p>
-                I'm a enthusiast for innovation. Technology has always been prelavent within my life. From my fascination with hardware to interacting with software, 
+                I'm a enthusiast for innovation, with technology always prelavent within my life. From my fascination with hardware to interacting with software, 
                 the endless possibilities of modern technology and its potential for innovation inspires me to this day. 
                 Furthermore, I have been coding since highschool, creating projects as an entertaining hobby, with Python being my first language.
                 <br></br>
@@ -30,7 +30,7 @@ function About(props) {
                 <b>Developer Tools: </b> Git, GitHub, VS Code, IntelliJ, Docker, MongoDB, Postman
                 <br></br>
                 <br></br>
-                <h3>Relevant Experience</h3>
+                {/* <h3>Relevant Experience</h3>
                 <b> - Abris (Internship): </b> <p> <a href = "abris.io"> Abris</a> is a startup focused on AI technologies and Web3. At Abris I have 
                 gained hands on experience with web technologies including React and Angular,  
                 and used MongoDB to develop the website databasepaired with ChatGPT prompt engineering using LangChain. 
@@ -43,7 +43,7 @@ function About(props) {
                 URC- University Rover Competition. The team is tasked with building a rover from scratch, which must be capable of several software feats such as
                 Autonomous Navigation. The team consists of several subteams with peers across all engineering disciplines.
                 As a member of the software subteam, I have gained experience in C++ and Python, collaborating with my peers 
-                in a competitive and enjoyable environment in order to succeed in competition. </p>
+                in a competitive and enjoyable environment in order to succeed in competition. </p> */}
                 <br></br> <br></br> 
                 <br></br> <br></br> 
             </div>

@@ -4,14 +4,14 @@
 
 :root {
     --color: black;
-    --color-nav: beige;
+    --color-nav: cornsilk;
     
 }
 .dark {
     background-color: #333;
     color: #fff;
     --color: white;
-    --color-nav: #697268;
+    --color-nav: dark grey;
 }
 
 .light {

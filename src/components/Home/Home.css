@@ -1,8 +1,9 @@
 #home_wrapper {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh !important;
+    min-height: 100vh !important;
     width: 100%;
     flex-direction: column;
     border-top: solid;

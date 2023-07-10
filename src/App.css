@@ -23,7 +23,12 @@ html {
 
 section {
     scroll-snap-align: start;
+    position: relative;
 }
+* {
+    box-sizing: border-box;
+}
+
 
 
 @media only screen and (max-width: 600px) {

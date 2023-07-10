@@ -2,19 +2,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 100vh !important;
     width: 100%;
     flex-direction: column;
     border-top: solid;
     scroll-snap-type: mandatory;
-    background-color: var(--color-nav);
+    background-color: var(--color-home);
 }
 
 .scrollNext {
     position:absolute;
     bottom: 0;
     font-size:larger;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--color-text)
 }
 
 body {
@@ -22,6 +23,14 @@ body {
 }
 
 
-h1 {
+.title_text {
     font-family: 'Courier New', Courier, monospace;
+    color: var(--color-text)
 }
+
+.intro {
+    color: var(--color-text)
+}
+
+
+

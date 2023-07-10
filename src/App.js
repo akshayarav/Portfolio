@@ -33,6 +33,8 @@ function App() {
       </section>
       <section>
       <About />
+      </section>
+      <section>
       <Projects />
       </section>
       </div>

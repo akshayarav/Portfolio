@@ -1,17 +1,67 @@
+
 #about_wrapper {
     display: flex;
-    align-items: left;
-    width: 100%;
     flex-direction: column;
-}
-
-#about {
-    height: 58px;
-    border-top: solid;
-    display: flex;
+    align-items: center;
     justify-content: center;
-    font-size: 5px;
+    height: 100vh;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.03);
 }
 
+#aboutMe {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+}
 
+#skills:hover, #biography:hover, #experience:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+}
 
+#biography, #skills, #experience {
+    background: white;
+    border-radius: 15px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.03);
+}
+
+#biography h3, #skills h3, #experience h3 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+#biography p, #skills p, #skills b, #experience p {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+@media only screen and (max-width: 600px) {
+    #biography, #skills, #experience {
+        background: white;
+        border-radius: 15px;
+        padding: 0.2rem;
+        margin-bottom: 0.5rem;
+    }
+    #biography h3, #skills h3, #experience h3 {
+        font-size: 0.8rem;
+        margin-bottom: 0.25rem;
+    }
+    #biography p, #skills p, #skills b, #experience p {
+        font-size: 0.5rem;
+    }
+    #aboutMe {
+        display: flex;
+        flex-direction: column;
+        margin: 0rem;
+        padding: 0rem;
+    }
+    #about_wrapper {
+        margin: 0rem;
+    }
+    
+} 

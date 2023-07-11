@@ -34,7 +34,7 @@ const NavBar= (props) =>{
         <a href="https://www.linkedin.com/in/akshayaravind26/" target="_blank" style={{color: "black"}}>
           <AiOutlineLinkedin className = "logo"/>
         </a>
-        <a href="https://github.com/akshayaravind2004" target="_blank" style={{color: "black"}}>
+        <a href="https://github.com/akshayarav" target="_blank" style={{color: "black"}}>
           <AiOutlineGithub className = "logo"/>
         </a>
         <a href="mailto::akshayaravindpr@gmail.com" style={{color: "black"}}> 

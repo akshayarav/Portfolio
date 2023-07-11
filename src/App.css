@@ -3,17 +3,21 @@
 }
 
 .dark {
-    background-color: darkslategrey;
+    background-color: black;
     --color: black;
     --color-text: white;
-    --color-home: #C6C0A5
+    --color-home: #482e25;
+    --color-about: #1d1722;
+    --color-projects: #00293f
 }
 
 .light {
     background-color:antiquewhite;
     --color: white;
     --color-text: black;
-    --color-home: cornsilk;
+    --color-home:#B7D1DA;
+    --color-about: #E2E8DD;
+    --color-projects: #FFD6C0
 }
 
 

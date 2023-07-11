@@ -13,7 +13,7 @@ function About(props) {
                 <div id = "biography">
                     <h3> Biography </h3>
                     <p>
-                    I'm an avid learner who loves challenges. Software engineering is an extension of my interests, with the endless possibilities of technology guiding my passions. 
+                    I'm an avid learner who loves challenge. Computer Science is an extension of these interests, with technology guiding my passions. 
                     I've dabbled with coding several times in highschool, but started to really learn its capabilities in late 2022, when I took an online Python course offerred by the 
                     University of Helsinki. Through this experience my fascination with software bloomed and continues to expand as I am constantly faced with challenges that require the tenacity to learn.
                     
@@ -29,8 +29,8 @@ function About(props) {
                 <div id = "skills">
                     <h3> Skills </h3>
                     <p>  <b> Languages: </b>  Python, Java, JavaScript, C++, R, HTML, CSS </p>  
-                    <p> <b> Frameworks: </b>  React, Angular, LangChain </p> 
-                    <p> <b>Developer Tools: </b>  Git, GitHub, VS Code, IntelliJ, Docker, MongoDB, Postman </p>
+                    <p> <b> Frameworks: </b>  React, Angular, FastAPI, LangChain </p> 
+                    <p> <b>Developer Tools: </b>  Git, GitHub, VS Code, IntelliJ, Docker, MongoDB </p>
                 </div>
                 <div id="experience">
                     <h3>Relevant Experience</h3>

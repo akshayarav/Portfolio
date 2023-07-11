@@ -5,6 +5,7 @@
     width: 100%;
     flex-direction: column;
     padding: 2rem;
+    background-color: var(--color-projects);
 }
 
 
@@ -31,6 +32,8 @@
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.03);
     cursor: pointer;
     border-radius: 50px  !important;
+    color: var(--color);
+
 }
 
 .card h5{

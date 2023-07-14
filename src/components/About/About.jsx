@@ -33,20 +33,20 @@ function About(props) {
                     <p> <b>Developer Tools: </b>  Git, GitHub, VS Code, IntelliJ, Docker, MongoDB </p>
                 </div>
                 <div id="experience">
-                    <h3>Relevant Experience</h3>
-                    <p>  <b> Abris (Internship): </b>  <a href = "abris.io"> Abris</a> is a startup focused on AI technologies and Web3. At Abris I have 
-                    gained hands on experience with web technologies including React and Angular,  
-                    and used MongoDB to develop the website databasepaired with ChatGPT prompt engineering using LangChain. 
-                    My work involved building products such as <a href = "aichefs.co"> AIChefs</a>. Under the mentorship of an ex-FAANG CTO, 
-                    my experience involved a 2 week sprint work environment complete with stand ups and team-member collaboration. </p>
-                    <p>  <b> Boston University Research: </b> As a paid research intern at Boston Univeristy, I worked with Professor Joshua Campbell, who runs a lab focused on 
-                    computational applications towards bioinformatics and biology. Working for Dr.Campbell, I have helped develop the Single Cell TTK R package,
-                    learning proper package development life cycle techniques and a comprehensive understanding of Git and GitHub. </p>
-                    <p>  <b> Cornell Mars Rover (Software Team Member): </b> Cornell Mars Rover is a compeptetive Cornell Engineering Project Team that competes in the yearly
-                    URC- University Rover Competition. The team is tasked with building a rover from scratch, which must be capable of several software feats such as
-                    Autonomous Navigation. The team consists of several subteams with peers across all engineering disciplines.
-                    As a member of the software subteam, I have gained experience in C++ and Python, collaborating with my peers 
-                    in a competitive and enjoyable environment in order to succeed in competition. </p>
+                <h3>Relevant Experience</h3>
+
+<p>
+  <strong>Abris Internship:</strong> At <a href="https://abris.io" target="_blank">Abris</a>, an innovative startup specializing in AI technologies and Web3, I've garnered hands-on experience with web technologies, including React and Angular. These technologies have been instrumental in developing functional websites that interact with ChatGPT via LangChain prompt engineering. My contributions include building products such as <a href="https://aichefs.co" target="_blank">AIChefs</a>. During my tenure, I embraced a fast-paced, collaborative learning environment throughout two-week sprint cycles.
+</p>
+
+<p>
+  <strong>Boston University Research:</strong> Serving as a paid research intern under Professor Joshua Campbell at Boston University, I've been actively involved in a lab dedicated to computational applications within bioinformatics and biology. I've contributed to the development of the singlecellTK R package, gaining a robust understanding of the package development lifecycle and the effective use of Git.
+</p>
+
+<p>
+  <strong>Cornell Mars Rover - Software Team Member:</strong> As part of the Cornell Mars Rover project, a competitive team under Cornell Engineering, we participate in the annual University Rover Competition (URC). The project involves building a rover capable of various software tasks, such as Autonomous Navigation. Our team comprises subteams from all engineering disciplines. As a software subteam member, I've honed my skills in C++ and Python while enjoying the camaraderie of a competitive and collaborative environment.
+</p>
+
                 </div>
             </div>
         </div>

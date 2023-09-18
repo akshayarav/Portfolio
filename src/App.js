@@ -1,44 +1,47 @@
-import React, { useState, useEffect } from 'react';
-import Navbar from "./components/Navbar/Navbar";
-import Home from "./components/Home/Home"
-import About from "./components/About/About"
-import Projects from "./components/Projects/Projects"
-import {MdDarkMode} from 'react-icons/md';
-import {HiOutlineSun} from 'react-icons/hi'
-import "./App.css"
+import React, { useState, useEffect } from "react";
+import Preloader from "../src/components/Pre";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Projects from "./components/Projects/Projects";
+import Resume from "./components/Resume/ResumeNew";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate
+} from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
+import "./style.css";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  const [theme, setTheme] = useState('light');
-  const [themeImg, setThemeImg] = useState(MdDarkMode)
-  const toggleTheme = () => {
-    if (theme === 'light') {
-      setTheme('dark');
-      setThemeImg(HiOutlineSun)
-    } else {
-      setTheme('light');
-      setThemeImg(MdDarkMode)
-    }
-  }
+  const [load, upadateLoad] = useState(true);
+
   useEffect(() => {
-    document.title = 'Akshay Aravind';
-    document.body.className = theme;
-  }, [theme]);
+    const timer = setTimeout(() => {
+      upadateLoad(false);
+    }, 1200);
+
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
-    <div className = {`App ${theme}`}>
-      <Navbar dark = {toggleTheme} img = {themeImg}/>
-      <div>
-      <section>
-      <Home />
-      </section>
-      <section>
-      <About />
-      </section>
-      <section>
-      <Projects />
-      </section>
+    <Router>
+      <Preloader load={load} />
+      <div className="App" id={load ? "no-scroll" : "scroll"}>
+        <Navbar />
+        <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/project" element={<Projects />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="*" element={<Navigate to="/"/>} />
+        </Routes>
       </div>
-    </div>
+    </Router>
   );
 }
 

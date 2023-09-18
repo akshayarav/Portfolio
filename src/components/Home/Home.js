@@ -15,7 +15,7 @@ function Home() {
   return (
     <section className="full-page d-flex align-items-center">
       <Container fluid id="home">
-        <Particle />
+        <Particle style = {{zIndex: -10}} />
         <Container className="home-content">
           <Row >
             <Col md={5} offset-md-1 className="home-header">
@@ -30,22 +30,14 @@ function Home() {
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
-            </Col>
-            <Col md={6} style={{ paddingBottom: 20 }}>
-            <Tilt>
-              <img src={nature} className="img-fluid" alt="avatar" />
-            </Tilt>
-            </Col>
-          </Row>
-        </Container>
-      </Container>
-      <ul>
+              <div>
+              <ul style={{ zIndex: 1000 }}>
               <li className="social-icons">
                 <a
                   href="https://github.com/akshayarav"
                   target="_blank"
                   rel="noreferrer"
-                  style={{color: "white", fontSize: "3rem"}}
+                  className="icon"
                 >
                   <AiFillGithub />
                 </a>
@@ -55,7 +47,7 @@ function Home() {
                   href="https://www.linkedin.com/in/akshayaravind26/"
                   target="_blank"
                   rel="noreferrer"
-                  style={{color: "white", fontSize: "3rem"}}
+                  className="icon"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -64,12 +56,23 @@ function Home() {
               <a href="mailto::akshayaravindpr@gmail.com" 
                   target="_blank"
                   rel="noreferrer"
-                  style={{color: "white", fontSize: "3rem"}}
+                  className="icon"
                   > 
                 <AiFillMail />
               </a>
               </li>
             </ul>
+              </div>
+            </Col>
+            <Col md={6} style={{ paddingBottom: 20 }}>
+            <Tilt>
+              <img src={nature} className="img-fluid" alt="avatar" style = {{paddingTop: 60, paddingLeft: 70}}/>
+            </Tilt>
+            </Col>
+          </Row>
+        </Container>
+      </Container>
+
     </section>
   );
   

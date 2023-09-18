@@ -248,6 +248,7 @@ button:focus {
   background-size: cover !important;
   width: 100%;
   height: 100%;
+  z-index: -1 !important;
 }
 
 .home-header {
@@ -278,6 +279,15 @@ button:focus {
 .heading-name {
   font-size: 2.5em !important;
   padding-left: 45px !important;
+}
+
+@media (max-width: 767px) {
+  .heading {
+    font-size: 1.4em !important;
+  }
+  .heading-name {
+    font-size: 1.5em !important;
+  }
 }
 
 .main-name {
@@ -320,7 +330,6 @@ button:focus {
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
-  padding-top: 70px !important;
 }
 
 .home-about-description {
@@ -392,6 +401,27 @@ button:focus {
   display: inline-block !important;
   padding-right: 15px;
   padding-left: 15px;
+  z-index: 10000 !important;
+  font-size: "3rem"
+}
+
+.icon {
+  font-size: 3rem;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .icon {
+    font-size: 1.5rem;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .myAvtar {
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+  }
 }
 
 .icon-colour {
@@ -446,7 +476,7 @@ button:focus {
 /* --------- */
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 100px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
 }
@@ -544,7 +574,7 @@ button:focus {
 
 .about-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 100px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
@@ -568,6 +598,9 @@ button:focus {
 @media (max-width: 767px) {
   .tech-icons {
     margin: 10px !important;
+  }
+  .img-fluid {
+    height: auto !important;
   }
 }
 

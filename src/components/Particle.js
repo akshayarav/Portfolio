@@ -4,7 +4,16 @@ import Particles from "react-tsparticles";
 function Particle() {
   return (
     <Particles
+      style={{ position: 'absolute', zIndex: -1, pointerEvents: 'none' }}
       id="tsparticles"
+      options={{
+
+        background: {
+          color: {
+            zIndex: -10,
+          },
+        },
+      }}
       params={{
         particles: {
           number: {

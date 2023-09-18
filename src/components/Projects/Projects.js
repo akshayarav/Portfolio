@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import fitnessAI from "../../Assets/Projects/fitnessAILogo.png";
+import website from "../../Assets/Projects/avatar.png";
 
 function Projects() {
   return (
@@ -24,6 +25,16 @@ function Projects() {
               description="A Full Stack project using OpenAI's API and ChatGPT 3.5 to generate custom workout plans!"
               ghLink="https://github.com/akshayarav/FitnessAI"
               demoLink="https://fitness-ai.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className = "project-card">
+          <ProjectCard
+              imgPath={website}
+              isBlog={false}
+              title="Personal Portfolio"
+              description="View the code for this website here! This is an interactive front-end website developed using React and completely documented via Github"
+              ghLink="https://github.com/akshayarav/Portfolio"
+              demoLink="https://akshayarav.github.io/"
             />
           </Col>
         </Row>

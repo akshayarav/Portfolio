@@ -45,16 +45,38 @@ function About() {
               RELEVANT <span className = "purple"> EXPERIENCE </span>
             </h1>
             <p className = "home-about-body">
+                <h2 style={{ fontSize: "1.6em" }}> <span className = "purple"> <u> Microsoft</u> </span></h2> 
+                <b>Software Engineer Intern</b>
+                <p>During my time at Microsoft, I worked on the Azure Stack team. My project was to develop an end to end solution for disconnected cloud services. During my internship, I went through a full design cycle, from hosting design reviews to communicating with other teams in the ideation of my project. I worked with various technologies such as .NET, C#, Powershell, Python, and Virtual Machines, and thoroughly enjoyed my time as a software engineer.</p>
+                <br>
+                </br>
+
+                <h2 style={{ fontSize: "1.6em" }}> <span className = "purple"> <u> Cornell Mars Rover</u> </span></h2> 
+
+                <b>Software Subteam Lead</b>
+                <br>
+                </br>
                 <p>
-                <b> Abris:</b> At Abris, an innovative startup specializing in AI technologies and Web3, I've garnered hands-on experience with web technologies, including React and Angular. These technologies have been instrumental in developing functional websites that interact with ChatGPT via LangChain prompt engineering. My contributions include building products such as AIChefs. During my tenure, I embraced a fast-paced, collaborative learning environment throughout two-week sprint cycles.
+                 I have been a member on Cornell Mars Rover for 2+ years and am now the software subteam lead. Cornell Mars Rover is a competitive team under Cornell Engineering that participates in the annual University Rover Competition (URC). The team is tasked with building a rover capable of various tasks, such as Autonomous Navigation. Our team comprises subteams from all engineering disciplines. Technically, I've honed my skills in C++ and Python while enjoying the camaraderie of a competitive and collaborative environment.
                 </p>
+                <br>
+                </br>
+
+
+                <h2 style={{ fontSize: "1.6em" }}> <span className = "purple"> <u> ABRIS</u> </span></h2> 
+                <b>Software Engineer Intern</b>
+                <p>
+                At Abris, an innovative startup specializing in AI technologies and Web3, I've garnered hands-on experience with web technologies, including React and Angular. These technologies have been instrumental in developing functional websites that interact with ChatGPT via LangChain prompt engineering. My contributions include building products such as AIChefs. During my tenure, I embraced a fast-paced, collaborative learning environment throughout two-week sprint cycles.
+                </p>
+
+
+                <br>
+                </br>
+                <h2 style={{ fontSize: "1.6em" }}> <span className = "purple"> <u> Boston University Research</u> </span></h2> 
                 <p>
                 <b>Boston University Research:</b> Serving as a paid research intern under Professor Joshua Campbell at Boston University, I've been actively involved in a lab dedicated to computational applications within bioinformatics and biology. I've contributed to the development of the singlecellTK R package, gaining a robust understanding of the package development lifecycle and the effective use of Git.
                 </p>
 
-                <p>
-                <b>Cornell Mars Rover - Software Team Member </b>: I am a software team member on Cornell Mars Rover, a competitive team under Cornell Engineering that participates in the annual University Rover Competition (URC). The team is tasked with building a rover capable of various tasks, such as Autonomous Navigation. Our team comprises subteams from all engineering disciplines. As a software subteam member, I've honed my skills in C++ and Python while enjoying the camaraderie of a competitive and collaborative environment.
-                </p>
               </p>
           </Col>
         </Row>

@@ -25,7 +25,7 @@ function About() {
                     
                     <br></br>
                     <br></br>
-                    Currently, I'm a student at the College of Engineering at Cornell University, planning to graduate in 2025. Subsequent to my fascination
+                    Currently, I'm a student at the College of Engineering at Cornell University, graduating in 2026. Subsequent to my fascination
                     with technology, I've found myself majoring in Computer Science. My experience in both work and personal projects has made me proficient with full stack software engineering, 
                     using skills in web development and server side technologies to create interactive apps. Beyond Full Stack, I have a passion for AI technologies and Machine Learning,
                     and I hope to explore these avenues in my future career.

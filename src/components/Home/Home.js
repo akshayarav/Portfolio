@@ -10,14 +10,13 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
-
 function Home() {
   return (
-    <section className="full-page d-flex align-items-center">
-      <Container fluid id="home">
-        <Particle style = {{zIndex: -10}} />
+    <section className="home-section full-page d-flex align-items-center">
+      <Container fluid className="home-container">
+        <Particle style={{zIndex: -10}} />
         <Container className="home-content">
-          <Row >
+          <Row>
             <Col md={5} offset-md-1 className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hey, I'm {" "}
@@ -31,51 +30,49 @@ function Home() {
                 <Type />
               </div>
               <div>
-              <ul style={{ zIndex: 1000 }}>
-              <li className="social-icons">
-                <a
-                  href="https://github.com/akshayarav"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/akshayaravind26/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-              <a href="mailto::akshayaravindpr@gmail.com" 
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon"
-                  > 
-                <AiFillMail />
-              </a>
-              </li>
-            </ul>
+                <ul style={{ zIndex: 1000 }}>
+                  <li className="social-icons">
+                    <a
+                      href="https://github.com/akshayarav"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="icon"
+                    >
+                      <AiFillGithub />
+                    </a>
+                  </li>
+                  <li className="social-icons">
+                    <a
+                      href="https://www.linkedin.com/in/akshayaravind26/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="icon"
+                    >
+                      <FaLinkedinIn />
+                    </a>
+                  </li>
+                  <li className="social-icons">
+                    <a href="mailto:akshayaravindpr@gmail.com" 
+                      target="_blank"
+                      rel="noreferrer"
+                      className="icon"
+                    > 
+                      <AiFillMail />
+                    </a>
+                  </li>
+                </ul>
               </div>
             </Col>
             <Col md={6} style={{ paddingBottom: 20 }}>
-            <Tilt>
-              <img src={nature} className="img-fluid" alt="avatar" style = {{paddingTop: 60, paddingLeft: 70}}/>
-            </Tilt>
+              <Tilt>
+                <img src={nature} className="img-fluid" alt="avatar" style={{paddingTop: 60, paddingLeft: 70}}/>
+              </Tilt>
             </Col>
           </Row>
         </Container>
       </Container>
-
     </section>
   );
-  
 }
 
 export default Home;
